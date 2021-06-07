@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddRecordDialog</class>
+ <widget class="QDialog" name="AddRecordDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>694</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Height:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Width:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Length:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Driveline:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Engine type:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string># of forward gears:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Transmission:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>City mpg:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Fuel type:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Highway mpg:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Classification:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>ID:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>Make:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>Model year:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>Year:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>Horsepower:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="0">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>Torque:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="driveline"/>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="engineType"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="transmission"/>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="fuelType"/>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="classification"/>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLineEdit" name="id"/>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLineEdit" name="make"/>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLineEdit" name="modelYear"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QSpinBox" name="height"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="width"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QSpinBox" name="length"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QSpinBox" name="numberOfForwardGears"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QSpinBox" name="cityMpg"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QSpinBox" name="highwayMpg"/>
+     </item>
+     <item row="14" column="1">
+      <widget class="QSpinBox" name="year"/>
+     </item>
+     <item row="15" column="1">
+      <widget class="QSpinBox" name="horsepower"/>
+     </item>
+     <item row="16" column="1">
+      <widget class="QSpinBox" name="torque"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Save record</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
