@@ -4,3 +4,4 @@
 - C++ programming language
 - Can filter CSVs containing cars' data by various features
 - Application is based on the given specification
+- Experimental
